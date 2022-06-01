@@ -2,8 +2,8 @@ package com.sparta.prac.service;
 
 
 import com.sparta.prac.domain.Memo;
-import com.sparta.prac.domain.MemoRepository;
-import com.sparta.prac.domain.MemoRequestDto;
+import com.sparta.prac.reporitory.MemoRepository;
+import com.sparta.prac.dto.MemoRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

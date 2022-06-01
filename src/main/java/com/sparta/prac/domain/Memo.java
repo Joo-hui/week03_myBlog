@@ -1,5 +1,6 @@
 package com.sparta.prac.domain;
 
+import com.sparta.prac.dto.MemoRequestDto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

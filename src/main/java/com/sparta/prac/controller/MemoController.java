@@ -2,13 +2,12 @@ package com.sparta.prac.controller;
 
 
 import com.sparta.prac.domain.Memo;
-import com.sparta.prac.domain.MemoRepository;
-import com.sparta.prac.domain.MemoRequestDto;
+import com.sparta.prac.reporitory.MemoRepository;
+import com.sparta.prac.dto.MemoRequestDto;
 import com.sparta.prac.service.MemoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @RequiredArgsConstructor
